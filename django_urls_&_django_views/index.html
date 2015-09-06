@@ -1,0 +1,412 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book  -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>Django URLs &amp; Django Views | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.1">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../lets_play_some_python/index.html" />
+    
+    
+    <link rel="prev" href="../django_app/index.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-google_code_prettify/google-code-prettify.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-maxiang/maxiang.css">
+        
+    
+    
+
+        
+    <div class="book" data-level="5" data-basepath=".." data-revision="Sun Sep 06 2015 16:14:35 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="python_web/index.html">
+            
+                
+                    <a href="../python_web/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Python &amp; Django 簡介
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="django/index.html">
+            
+                
+                    <a href="../django/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        安裝 Django
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="django_project/index.html">
+            
+                
+                    <a href="../django_project/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Django Project
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="django_app/index.html">
+            
+                
+                    <a href="../django_app/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Django APP
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5" data-path="django_urls_&amp;_django_views/index.html">
+            
+                
+                    <a href="../django_urls_&amp;_django_views/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Django URLs &amp; Django Views
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="lets_play_some_python/index.html">
+            
+                
+                    <a href="../lets_play_some_python/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Let&#39;s Play Some Python
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="django_template/index.html">
+            
+                
+                    <a href="../django_template/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Django Template
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="django_model_and_admin/index.html">
+            
+                
+                    <a href="../django_model_and_admin/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Django Model &amp; Django Admin
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="deployment/index.html">
+            
+                
+                    <a href="../deployment/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        把你的網站丟給別人看看
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="start/index.html">
+            
+                
+                    <a href="../start/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        這只是開始
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="django-urls-django-views">Django URLs &amp; Django Views</h1>
+<p>&#x5230;&#x9019;&#x88E1;&#x5927;&#x5BB6;&#x61C9;&#x8A72;&#x6703;&#x5728;&#x60F3; &quot;&#x641E;&#x4E86;&#x534A;&#x5929;&#x90FD;&#x5728;&#x5F04;&#x9019;&#x4E9B;&#x6709;&#x7684;&#x6C92;&#x7684;&#xFF0C;&#x4EC0;&#x9EBC;&#x6642;&#x5019;&#x624D;&#x80FD;&#x958B;&#x59CB;&#x505A;&#x6211;&#x5011;&#x7B2C;&#x4E00;&#x500B;&#x9801;&#x9762;&#x5462;&#xFF1F;&quot; &#x9019;&#x500B;&#x7AE0;&#x7BC0;&#x6703;&#x8B93;&#x6211;&#x5011;&#x5275;&#x7ACB;&#x7B2C;&#x4E00;&#x500B;&#x9801;&#x9762;&#xFF0C;&#x4E26;&#x4E14;&#x8B93;&#x6211;&#x5011;&#x4E86;&#x89E3;&#x5230; Django &#x5F88;&#x91CD;&#x8981;&#x7684;&#x5169;&#x500B;&#x90E8;&#x5206; - URL &#x8DDF; Views.</p>
+<h2 id="django-views">Django Views</h2>
+<p>&#x4E00;&#x500B;&#x7DB2;&#x9801;&#x7A0B;&#x5F0F;&#x7576;&#x4E2D;&#x7684;&#x908F;&#x8F2F;&#x901A;&#x5E38;&#x662F;&#x9019;&#x500B;&#x6A23;&#x5B50;&#x7684;&#xFF1A;request &#x9032;&#x4F86; -&gt; &#x5F9E;&#x8CC7;&#x6599;&#x5EAB;&#x6488;&#x8CC7;&#x6599; -&gt; &#x8655;&#x7406;&#x8CC7;&#x6599; -&gt; &#x628A;&#x7DB2;&#x9801;&#x5448;&#x73FE;&#x51FA;&#x4F86;&#x3002;&#x7531;&#x65BC;&#x73FE;&#x5728;&#x6211;&#x5011;&#x9084;&#x6C92;&#x6709;&#x8B1B;&#x5230;&#x8981;&#x600E;&#x9EBC;&#x6A23;&#x505A;&#x8DDF;&#x8CC7;&#x6599;&#x5EAB;&#x4E4B;&#x9593;&#x7684;&#x4E92;&#x52D5;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x5011;&#x5148;&#x4F86;&#x8B1B;&#x8B1B;&#x5F9E; request &#x9032;&#x4F86;&#x5230;&#x9801;&#x9762;&#x5448;&#x73FE;&#x51FA;&#x4F86;&#x9019;&#x6BB5;&#x904E;&#x7A0B; Django &#x662F;&#x600E;&#x9EBC;&#x505A;&#x7684;&#x3002;</p>
+<p>&#x8B93;&#x6211;&#x5011;&#x6253;&#x958B; excuse/views.py &#x9019;&#x500B;&#x6A94;&#x6848;&#xFF0C;&#x8F38;&#x5165;&#x4EE5;&#x4E0B;&#x7684;&#x7A0B;&#x5F0F;&#x78BC;&#xFF1A;</p>
+<pre><code class="lang-python"><span class="hljs-keyword">from</span> django.http <span class="hljs-keyword">import</span> HttpResponse
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">home</span><span class="hljs-params">(request)</span>:</span>
+    excuses = [
+        <span class="hljs-string">&quot;It was working in my head&quot;</span>,
+        <span class="hljs-string">&quot;I thought I fixed that&quot;</span>,
+        <span class="hljs-string">&quot;Actually, that is a feature&quot;</span>,
+        <span class="hljs-string">&quot;It works on my machine&quot;</span>,
+    ]
+
+    <span class="hljs-keyword">return</span> HttpResponse(excuses[<span class="hljs-number">0</span>])
+</code></pre>
+<p>&#x9019;&#x662F;&#x4E00;&#x500B;&#x6700;&#x7C21;&#x55AE;&#x7684; Django View&#xFF0C;&#x6211;&#x5011;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x4E00;&#x500B; Django View &#x57FA;&#x672C;&#x4E0A;&#x5C31;&#x662F;&#x4E00;&#x500B; python function&#xFF0C;&#x50B3;&#x5165;&#x503C;&#x662F; request&#xFF0C;&#x5B83;&#x7684;&#x578B;&#x5225;&#x662F; <a href="https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects" target="_blank">HttpRequest</a>&#xFF0C;&#x7576;&#x4E2D; Django &#x5E6B;&#x6211;&#x5011;&#x5C01;&#x88DD;&#x4E86;&#x6709;&#x95DC;&#x4E00;&#x500B; HTTP Request &#x9032;&#x4F86;&#x6703;&#x50B3;&#x5165;&#x7684;&#x8CC7;&#x6599;&#x3002;&#x5305;&#x542B;&#x4E86; request body, request method... &#x7B49;&#x7B49;&#x3002;</p>
+<p>&#x63A5;&#x8457;&#xFF0C;&#x6211;&#x5011;&#x7528;&#x5230;&#x4E86; <a href="https://docs.python.org/2/tutorial/datastructures.html" target="_blank">Python &#x7684; list</a>&#x3002;&#x5982;&#x679C;&#x4F60;&#x6709;&#x5176;&#x4ED6;&#x7A0B;&#x5F0F;&#x8A9E;&#x8A00;&#x7684;&#x7D93;&#x9A57;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x628A; list &#x770B;&#x6210;&#x8DDF; array &#x5F88;&#x50CF;&#x7684;&#x6982;&#x5FF5;&#x3002;&#x6211;&#x5011;&#x5BA3;&#x544A;&#x4E86;&#x4E00;&#x500B;&#x53EB;&#x505A; excuses &#x7684; list&#xFF0C;&#x7576;&#x4E2D;&#x653E;&#x4E86;&#x56DB;&#x500B;&#x5B57;&#x4E32;&#xFF0C;&#x5206;&#x5225;&#x662F;&#x6240;&#x6709;&#x7684; excuses&#x3002;&#x6700;&#x5F8C;&#xFF0C;&#x56DE;&#x50B3;&#x4E00;&#x500B;&#x7528; excuses[0] &#x7576; constructor &#x7684; HttpResponse &#x7269;&#x4EF6;&#x3002;&#x540C;&#x6A23;&#x7684;&#xFF0C;HttpResponse &#x4E5F;&#x5E6B;&#x6211;&#x5011;&#x5C01;&#x88DD;&#x4E86;&#x56DE;&#x50B3;&#x7D66; browser &#x7684;&#x8CC7;&#x8A0A;&#x3002;&#x5305;&#x542B;&#x4E86; content type, status code &#x7B49;&#x7B49;&#x3002;</p>
+<p>&#x900F;&#x904E; Django &#x7684; Request &#x9084;&#x6709; Response &#x7269;&#x4EF6;&#xFF0C;&#x6211;&#x5011;&#x5728;&#x8655;&#x7406;&#x8907;&#x96DC;&#x7684; HTTP &#x7684;&#x6642;&#x5019;&#x53EF;&#x4EE5;&#x7701;&#x4E0B;&#x66F4;&#x591A;&#x7684;&#x9EBB;&#x7169;&#x4E8B;&#x8981;&#x8655;&#x7406;&#xFF0C;&#x8B93;&#x6211;&#x5011;&#x53EF;&#x4EE5;&#x66F4;&#x5C08;&#x6CE8;&#x5728;&#x628A;&#x6771;&#x897F;&#x505A;&#x597D;&#x4E0A;&#x9762;&#x3002;</p>
+<h2 id="django-urls">Django URLs</h2>
+<p>&#x6211;&#x5011;&#x5BEB;&#x597D;&#x7B2C;&#x4E00;&#x500B; view &#x4E4B;&#x5F8C;&#xFF0C;&#x90A3;&#x9EBC;&#x6211;&#x5011;&#x8A72;&#x600E;&#x9EBC;&#x8B93; Django &#x77E5;&#x9053;&#x9023;&#x5230;&#x54EA;&#x500B; URL &#x6703;&#x547C;&#x53EB;&#x9019;&#x500B; view &#x5462;&#xFF1F;&#x9019;&#x5C31;&#x662F; Django URLs &#x6703;&#x8655;&#x7406;&#x7684;&#x4E8B;&#x60C5;&#x3002;&#x8B93;&#x6211;&#x5011;&#x6253;&#x958B; mysite/urls.py &#x9019;&#x500B;&#x6A94;&#x6848;&#xFF0C;&#x5728; urlpatterns &#x7576;&#x4E2D;&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x7684; code</p>
+<pre><code class="lang-python">urlpatterns = patterns(<span class="hljs-string">&apos;&apos;</span>,
+    ...
+    url(<span class="hljs-string">r&apos;^$&apos;</span>, <span class="hljs-string">&apos;excuse.views.home&apos;</span>),
+)
+</code></pre>
+<p>&#x5728;&#x9019;&#x908A;&#xFF0C;&#x6211;&#x5011;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x6211;&#x5011;&#x4F7F;&#x7528;&#x4E86;&#x4E00;&#x500B; url function &#xFF0C;&#x6709;&#x4E09;&#x500B;&#x50B3;&#x5165;&#x503C;&#xFF0C;&#x7B2C;&#x4E00;&#x500B;&#x50B3;&#x5165;&#x503C;&#x662F;&#x500B; regular expression&#xFF0C;&#x5728;&#x6B64;&#x6211;&#x5011;&#x50B3;&#x5165;&#x4E00;&#x500B;&#x7A7A;&#x5B57;&#x4E32;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x6703;&#x5C0D;&#x61C9;&#x5230; url &#x7576;&#x4E2D;&#x6C92;&#x6709;&#x4EFB;&#x4F55;&#x6771;&#x897F;&#x7684;&#x6642;&#x5019;&#x3002;&#x800C;&#x7B2C;&#x4E8C;&#x500B;&#x50B3;&#x5165;&#x503C;&#x662F;&#x500B; view function &#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x9019;&#x908A;&#x6211;&#x5011;&#x662F;&#x50B3;&#x5165;&#x525B;&#x525B;&#x5BEB;&#x7684; excuse.views.home</p>
+<p>&#x63A5;&#x8457;&#x5207;&#x63DB;&#x5230;&#x4F60;&#x7684; terminal&#xFF0C;&#x91CD;&#x65B0;&#x8F38;&#x5165;</p>
+<pre><code>python manage.py runserver
+</code></pre><p>&#x6253;&#x958B;&#x4F60;&#x7684;&#x700F;&#x89BD;&#x5668;&#xFF0C;&#x958B;&#x5553; <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> &#xFF0C;&#x61C9;&#x8A72;&#x5C31;&#x6703;&#x770B;&#x5230; &quot;It was working in my head&quot; &#x51FA;&#x73FE;&#xFF01;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../django_app/index.html" class="navigation navigation-prev " aria-label="Previous page: Django APP"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../lets_play_some_python/index.html" class="navigation navigation-next " aria-label="Next page: Let&#39;s Play Some Python"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-google_code_prettify/google-code-prettify.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-google_code_prettify/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-collapsible-menu/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-maxiang/maxiang.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book  -->
+</html>
